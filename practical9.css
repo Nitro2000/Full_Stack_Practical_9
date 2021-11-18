@@ -1,167 +1,246 @@
 * {
-    border-radius: 10px;
-    padding: 0;
-    box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0;
+  box-sizing: border-box;
 }
 .header {
-    width: 100%;
-    position: fixed;
-    top: 0%;
-    background-color: rgb(73, 73, 73);
-    text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  background-color: rgb(73, 73, 73);
+  text-align: center;
 }
 .header ul {
-    list-style: none;
-    display: inline-flex;
+  list-style: none;
+  display: inline-flex;
 }
 .header ul li {
-    padding: 20px;
-    font-size: 30px;
-    margin-inline: 60px;
+  padding: 20px;
+  font-size: 30px;
+  margin-inline: 60px;
 }
-.header ul li a {   
-    text-decoration: none;
-    color: white;
+.header ul li a {
+  text-decoration: none;
+  color: white;
 }
 .header ul li:hover {
-    background-color:rgb(87, 226, 219);
+  background-color: rgb(87, 226, 219);
 }
-
-
 
 .banner {
-    width: 100%;
-    height: 100vh;
-    background-image: url("./Assets/practicalPic.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 110px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./Assets/practicalPic.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 110px;
 }
 
-
 .sect1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
 }
 
 .section_1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .image {
-    width: 250px;
-    height: 250px;
-    margin-inline: 60px;
+  width: 250px;
+  height: 250px;
+  margin-inline: 60px;
 }
 .image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
 }
 
 .section_2 {
-    display: flex;
+  display: flex;
 }
 
 .main {
-    text-align: center;
-    padding: 15px;
-    color: white;
-    background-color: grey;
-    width: 49%;
-    margin-right: 2%;
-}   
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background-color: grey;
+  width: 49%;
+  margin-right: 2%;
+}
 
 .artical {
-    width: 49%;
+  width: 49%;
 }
 .articals {
-    width: 100%;
-    height: 110px;
-    background-image: url("./Assets/proj2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-    border:1px solid black;
+  width: 100%;
+  height: 110px;
+  background-image: url("./Assets/proj2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  border: 1px solid black;
 }
 #artical2 {
-    background-image: url("./Assets/proj1.jpg");
+  background-image: url("./Assets/proj1.jpg");
 }
 #artical3 {
-    background-image: url("./Assets/proj3.jpg");
-    margin-bottom: 0;
+  background-image: url("./Assets/proj3.jpg");
+  margin-bottom: 0;
 }
 
 .articals p {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 0%;
-    font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0%;
+  font-weight: bold;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .card {
-    width: 300px;
-    height: 410px;
-    background-color: white;
-    border: 2px solid yellow;
-    border-radius: 15px;
-    padding: 20px;
-    margin-inline: 20px;
+  width: 300px;
+  height: 410px;
+  background-color: white;
+  border: 2px solid yellow;
+  border-radius: 15px;
+  padding: 20px;
+  margin-inline: 20px;
 }
 .card img {
-    width: 100%;
-    height: 150px;
-    border-radius: 10px;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
 }
 .button {
-    display: block;
-    text-align: center;
-    background-color: rgb(114, 32, 190);   
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    font-size: 20px;
-    
+  display: block;
+  text-align: center;
+  background-color: rgb(114, 32, 190);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
 }
 .button a {
-    text-decoration: none;
-    color: white;
-
+  text-decoration: none;
+  color: white;
 }
 .para {
-    justify-content: center;
-    font-size: 20px;
-    margin-top: 20px;
-    text-align: justify;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: justify;
 }
-.button:hover{
-    background-color: rgb(52, 109, 13);
+.button:hover {
+  background-color: rgb(52, 109, 13);
 }
 #card2 {
-    border: solid rgb(43, 104, 161);
+  border: solid rgb(43, 104, 161);
 }
 #card3 {
-    border: solid rgb(97, 153, 12);
+  border: solid rgb(97, 153, 12);
 }
 #card4 {
-    border: solid rgb(119, 22, 119);
+  border: solid rgb(119, 22, 119);
 }
 
 .footer {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    background-color: rgb(209, 111, 128);
-}.footer p {
-    font-size: 20px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(209, 111, 128);
+}
+.footer p {
+  font-size: 20px;
 }
 
-
+@media (max-width: 800px) {
+  .show-btn,
+  .hide-btn {
+    display: block;
+  }
+  .hide-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  .menu {
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: grey;
+    width: 100%;
+    height: 100vh;
+    transition: 1s;
+    z-index: 10;
+  }
+  .menu li {
+    display: block;
+    text-align: center;
+  }
+  #check:checked ~ .menu {
+    right: 0;
+  }
+  .banner img {
+    height: auto;
+    max-width: 780px;
+    display: block;
+    margin: auto;
+  }
+  .banner h1 {
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    font-size: 60px;
+  }
+  .avtar {
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .face {
+    width: 40%;
+  }
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main {
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    background-color: grey;
+    color: white;
+  }
+  .project {
+    width: 100%;
+  }
+  .container2 {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+  .avtar {
+    margin: 20px;
+  }
+  .face {
+    width: 80%;
+  }
+  .card {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
